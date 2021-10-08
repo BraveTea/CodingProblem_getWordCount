@@ -1,0 +1,9 @@
+# a test to run this. The principle is valid, I just need to figure out how to do it in Java.
+
+sentence = "test test test"
+
+def wordCount(str):
+  lst = str.split(" ")
+  return len(lst)
+
+print(wordCount(sentence))
